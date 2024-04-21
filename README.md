@@ -7,17 +7,19 @@ Untuk menjalankan proyek BookingToGo, Anda perlu mengikuti langkah-langkah berik
 
 1. Pastikan Anda telah menginstal Go di komputer Anda. Untuk informasi lebih lanjut tentang cara menginstal Go, kunjungi [dokumentasi resmi Go](https://golang.org/doc/install).
 
-2. Clone repositori BookingToGo ke dalam direktori lokal Anda:
+2. Silahkan import database terlebih dahulu pada folder database atau bisa migrate dan seed pada projek laravel https://github.com/hibatulwafi/laravel-bookingtogo-test
+
+3. Clone repositori BookingToGo ke dalam direktori lokal Anda:
 
    ```bash
    git clone https://github.com/hibatulwafi/golang-bookingtogo-test.git
 
-3. Jalankan perintah
+4. Jalankan perintah
 
    ```bash
    go run cmd/server/main.go
 
-4. Masuk kedalam web
+5. Masuk kedalam web
    ```bash
     http://localhost:8080/customers
     http://localhost:8080/customers/1
