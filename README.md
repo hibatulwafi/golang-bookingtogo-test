@@ -20,7 +20,5 @@ Untuk menjalankan proyek BookingToGo, Anda perlu mengikuti langkah-langkah berik
 4. Masuk kedalam web
    ```bash
     http://localhost:8080/customers
-
-   ```bash  
-   http://localhost:8080/customers/1
+    http://localhost:8080/customers/1
 
